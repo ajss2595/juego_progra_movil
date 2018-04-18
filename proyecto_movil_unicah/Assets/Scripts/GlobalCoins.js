@@ -6,5 +6,5 @@ var InternalCoin : int;
 
 function Update () {
     InternalCoin = CoinCount;
-    CoinDisplay.GetComponent.<Text>().text = "Coins: " + CoinCount;
+    CoinDisplay.GetComponent.<Text>().text = "Monedas: " + CoinCount;
 }
